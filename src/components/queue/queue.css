@@ -1,0 +1,123 @@
+.queue-botton-bar-left-div {
+  width: 50%;
+  float: left;
+  height: 100%;
+  background-color: #263a48;
+}
+
+.queue-botton-bar-right-div {
+  width: 50%;
+  float: right;
+  height: 100%;
+  background-color: seagreen;
+}
+
+.queue-head-bar-left-div {
+  width: 50%;
+  float: left;
+  height: 100px;
+  background-color: #4bd37b;
+}
+
+.queue-head-bar-right-div {
+  width: 50%;
+  float: left;
+  height: 100px;
+  background-color: #e5e5e5;
+}
+
+.queue-head-bar-right-right-div {
+  width: 100%;
+  float: left;
+  height: 100px;
+  background-color: white;
+}
+
+.queue-div {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  background-repeat: no-repeat;
+}
+
+.queue-time-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.queue-ready-to-serve-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 96px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.queue-prepairing-food-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.queue-bottom-left-div {
+  position: relative;
+  margin-left: 48px;
+}
+
+.queue-bottom-card-left-div {
+  position: relative;
+  height: 80px;
+  width: 388px;
+  background: #31a7de;
+  border-radius: 10px;
+  margin-bottom: 38.6px;
+}
+
+.queue-bottom-card-right-div {
+  position: relative;
+  height: 80px;
+  width: 388px;
+  background: #e5e5e5;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  margin-top: 38.6px;
+  margin-left: 30px;
+}
+
+.queue-bottom-card-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.queue-bottom-prepare-card-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 78px;
+  color: #4a4a4a;
+  text-align: center;
+}

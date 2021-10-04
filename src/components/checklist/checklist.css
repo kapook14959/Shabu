@@ -1,0 +1,239 @@
+.checklist-top-bar-div {
+  height: 81px;
+  background: #31a7de;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.checklist-right-item-top-bar {
+  padding-right: 26px;
+}
+
+.checklist-date-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.checklist-time-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.checklist-name-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.checklist-hamburger-div {
+  padding-left: 35px;
+}
+
+.checklist-order-count-div {
+  position: relative;
+  left: 66px;
+}
+
+.checklist-order-count-first-line-text {
+  text-align: center;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.checklist-order-count-second-line-text {
+  text-align: center;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+/** ส่วนของ Order */
+.checklist-order-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+
+.checklist-order-scroll-div {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.checklist-scrolls {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 100%;
+  white-space: nowrap;
+  margin-top: 16px;
+  padding-bottom: 20px;
+}
+.checklist-cards {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin: 2px;
+  cursor: pointer;
+  display: inline-block;
+  *display: inline; /* For IE7*/
+  *zoom: 1; /* For IE7*/
+  vertical-align: top;
+  margin-left: 16px;
+  margin-right: 6px;
+  width: 300px;
+}
+
+.checklist-card-top-div {
+  display: flex;
+  height: 100px;
+}
+
+.checklist-card-top-div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-card-top-first-line {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #4a4a4a;
+}
+
+.checklist-card-top-second-line {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4a4a4a;
+}
+
+.checklist-card-top-third-line {
+  margin-top: 3px;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4a4a4a;
+}
+
+.checklist-card-top-image-ul {
+  margin-top: 10px;
+  margin-left: 14px;
+  margin-right: 12px;
+}
+
+.checklist-card-top-button {
+  background: #31a7de;
+  border-radius: 4px;
+  border-width: 0;
+  width: 83px;
+  height: 35px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+  margin-top: 58px;
+  margin-left: 9px;
+}
+
+.checklist-card-top-button-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.checklist-card-order-div {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 4px;
+  margin-top: 16px;
+  width: 300px;
+}
+
+.checklist-card-order-div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-card-order-menu-detail-div ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.checklist-card-order-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4a4a4a;
+  padding-left: 13px;
+  width: 1px;
+  text-decoration-line: line-through;
+  color: #37b34a;
+}
+
+.checklist-card-order-menu-detail-text-span {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4a4a4a;
+  background: #ceefff;
+  border-radius: 4px;
+  margin-left: 92px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.checklist-card-order-text-ul {
+  width: 40px;
+}
+
+.checklist-card-bottom-div hr {
+  width: 90%;
+  margin-left: 14px;
+  border: 1px solid #cecece;
+}
+
+.checklist-card-bottom-text {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-left: 20px;
+}
+
+.checklist-card-bottom-text-pos {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4a4a4a;
+  margin-left: 79px;
+}
